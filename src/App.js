@@ -4,7 +4,7 @@ import StarRating from './components/StarRating';
 function App() {
   return (
     <div className="App">
-      <StarRating />
+      <StarRating numOfStars={10}/>
     </div>
   );
 }
